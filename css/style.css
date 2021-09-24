@@ -2,7 +2,7 @@ body{
 	position: relative;
 	width:100%;
 	height:100%;
-	background-colo:white;
+	background-color:rgb(214, 211, 211);
 	mix-blend-mode: darken;	
 }
 
@@ -22,8 +22,8 @@ body{
 	position: absolute;
 	width: 400px;
 	height: 400px;
-	left: 823px;
-	top: 150px;
+	left: 850px;
+	top: 120px;
 	border: 2px solid #000000;
 	border-radius: 30px;
 	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
@@ -32,7 +32,7 @@ body{
 
 #tituloBox{
 	position: absolute;
-	left:130px;
+	left:100px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -77,4 +77,95 @@ body{
 	height: 213px;
 	left: 100px;
 	top: 250px;
+}
+
+.userInput{
+	position: absolute;
+	width: 200px;
+	height: 30px;	
+	left: 100px;
+	top: 111px;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 18px;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.userInputTitle{
+	position: absolute;
+	width: 103px;
+	height: 35px;
+	left: 100px;
+	top: 75px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 35px;
+
+	color: #000000;
+}
+
+.userInputTitle{
+	position: absolute;
+	width: 103px;
+	height: 35px;
+	left: 100px;
+	top: 75px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 35px;
+
+	color: #000000;
+}
+
+.userPasswordTitle{
+	position: absolute;
+	width: 103px;
+	height: 35px;
+	left: 100px;
+	top: 185px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 35px;
+
+	color: #000000;
+}
+
+.passwordInput{
+	position: absolute;
+	width: 200px;
+	height: 30px;	
+	left: 100px;
+	top: 222px;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 18px;
+	border: 2px solid #000000;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#button{
+	position: absolute;
+	width: 200px;
+	height: 40px;
+	left: 100px;
+	top: 300px;
+	font-size: 18px;
+
+	background:#ffce36;
+	border: 3px solid #000000;
+	border-radius: 11px;
 }

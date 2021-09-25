@@ -43,15 +43,25 @@ inputs.forEach( (input) => {
 });
 
 //esta funcion evita que envíe los datos 
+/*
 formulario.addEventListener('submit', (evento) => {
     evento.preventDefault();
 
-    evento.on('click', function(){
+    on('click', function(){
         if (formulario.usuario.value == 12345678 && formulario.password.value == 12345){
             console.log("login sucessful")
         }
     })
 
+});*/
+
+formulario.addEventListener('submit', function() {
+    if (formulario.usuario.value === "12345678" && formulario.password.value === "12345"){
+        location.href = "https://www.google.com"
+        }else{
+        console.log("login failed")
+    }
+    
 });
 
 

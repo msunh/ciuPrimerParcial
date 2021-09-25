@@ -1,39 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    
-    <title>Sistema de Descuento en Farmacias - Gobierno de la Ciudad De Buenos Aires</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-</head>
+  <head>
+    <title>
+      Sistema de Descuento en Farmacias - Gobierno de la Ciudad De Buenos Aires
+    </title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<header id="cabecera"> 
-    
+  <header id="cabecera">
     <span class="headerBsAs"> Buenos Aires Ciudad / Ministerio de Salud </span>
-    <span class="headerDescuento">Sistema de Descuento en Farmacias Asociadas</span>
-    <img id="logoCiudad" src="./images/logoBA.png" alt="logo Ciudad de Buenos Aires"> 
+    <span class="headerDescuento"
+      >Sistema de Descuento en Farmacias Asociadas</span
+    >
+    <img
+      id="logoCiudad"
+      src="./images/logoBA.png"
+      alt="logo Ciudad de Buenos Aires"
+    />
+  </header>
 
-</header>
+  <body id="cuerpo">
+    <div id="loginBox">
+      <h3 id="tituloBox">Bienvenido</h3>
+      <label class="userInputTitle" for="username"> Usuario </label>
+      <input
+        class="userInput"
+        id="username"
+        name="usuario"
+        placeholder="Ingrese su Usuario"
+        required
+      />
 
+      <label class="userPasswordTitle" for="password"> Contraseña </label>
+      <input
+        class="passwordInput"
+        id="password"
+        name="Contraseña"
+        type="password"
+        placeholder="Ingrese su Contraseña"
+        required
+      />
 
-<body id="cuerpo">           
-        
-        <div id="loginBox"> 
-            <h3 id="tituloBox"> Bienvenido </h3>
-            <label class="userInputTitle" for="username"> Usuario </label>
-            <input class="userInput" id="username" name="usuario" placeholder="Ingrese su Usuario" required>
-
-            <label class="userPasswordTitle" for="password"> Contraseña </label>    
-            <input class="passwordInput" id="password" name="Contraseña" type="password" placeholder="Ingrese su Contraseña" required>
-
-            <button id="button">Iniciar Sesión</button>
-            
-
-        </div>
-        <div>
-            <img class="vamosBA" src="./images/vamosBA.png" alt="vamos buenos aires">
-        </div>
+      <button id="button">Iniciar Sesión</button>
+    </div>
+    <div>
+      <img
+        class="vamosBA"
+        src="./images/vamosBA.png"
+        alt="vamos buenos aires"
+      />
+    </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

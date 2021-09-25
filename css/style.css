@@ -24,7 +24,7 @@ body{
 	height: 400px;
 	left: 850px;
 	top: 120px;
-	border: 2px solid #000000;
+	border: 1px solid #000000;
 	border-radius: 30px;
 	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
 	
@@ -32,7 +32,7 @@ body{
 
 #tituloBox{
 	position: absolute;
-	left:100px;
+	left:120px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -76,7 +76,7 @@ body{
 	width: 617px;
 	height: 213px;
 	left: 100px;
-	top: 250px;
+	top: 200px;
 }
 
 .userInput{
@@ -110,38 +110,6 @@ body{
 	color: #000000;
 }
 
-.userInputTitle{
-	position: absolute;
-	width: 103px;
-	height: 35px;
-	left: 100px;
-	top: 75px;
-
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 25px;
-	line-height: 35px;
-
-	color: #000000;
-}
-
-.userPasswordTitle{
-	position: absolute;
-	width: 103px;
-	height: 35px;
-	left: 100px;
-	top: 185px;
-
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 25px;
-	line-height: 35px;
-
-	color: #000000;
-}
-
 .passwordInput{
 	position: absolute;
 	width: 200px;
@@ -157,15 +125,95 @@ body{
 
 }
 
+.userPasswordTitle{
+	position: absolute;
+	width: 103px;
+	height: 35px;
+	left: 100px;
+	top: 185px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 25px;
+	line-height: 35px;
+	color: #000000;
+}
+
 #button{
 	position: absolute;
-	width: 200px;
+	width: 210px;
 	height: 40px;
 	left: 100px;
 	top: 300px;
 	font-size: 18px;
 
 	background:#ffce36;
-	border: 3px solid #000000;
+	border: 2px rgb(84, 100, 116) #000000;
 	border-radius: 11px;
+}
+
+.contenedorTarjetas{
+	
+	position: relative;
+	width: 800px;
+	height: 430px;
+	margin-top:150px;
+	left:280px;
+	border: 1px solid #000000;
+	box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tarjeta1{
+	position: absolute;
+	width: 200px;
+	height: 350px;
+	top: 40px;
+	left:30px;
+	border: 1px solid black;
+	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+
+}
+
+#imgFarm1{
+	display: block;
+	margin:auto;
+	height:180px;
+	width:200px;
+}
+
+.center{
+	text-align: center;	
+	font-family:Roboto;
+}
+
+h4.fontSize{
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+h1{
+	font-size:35px
+}
+
+.tarjeta2{
+	position: absolute;
+	width: 200px;
+	height: 350px;
+	top: 40px;
+	left:300px;
+	border: 1px solid black;
+	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+
+}
+
+.tarjeta3{
+	position: absolute;
+	width: 200px;
+	height: 350px;
+	top: 40px;
+	left:565px;
+	border: 1px solid black;
+	box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+
 }

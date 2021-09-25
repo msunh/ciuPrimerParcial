@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   </head>
 
   <header id="cabecera">
@@ -29,6 +30,7 @@
 
       <form action="" class="formulario" id="formulario">
         <label class="userInputTitle" for="username"> Usuario </label>
+        <!--Input DNI - Usuario-->
         <input
           class="input"
           id="username"
@@ -36,9 +38,10 @@
           placeholder="Ingrese su Usuario"
           required
         />
-        <p id="inputError">Números - hasta 8 caracteres</p>
+        <p id="inputError">DNI, Solo Números, hasta 8 caracteres</p>
 
         <label class="userPasswordTitle" for="password"> Contraseña </label>
+        <!--Input Password-->
         <input
           class="input"
           id="password"
@@ -48,8 +51,10 @@
           required
         />
         <p id="inputPassError">Mínimo 4 caracteres, Máximo 10.</p>
-
-        <button type="submit" class="botonFormulario" id="button">Iniciar Sesión</button>
+        <!--Boton-->
+        <button 
+            type="button" class="botonFormulario" id="botonIngresar">Iniciar Sesión
+        </button>
       </form>
     </div>
     <div>
@@ -59,7 +64,8 @@
         alt="vamos buenos aires"
       />
     </div>
-
+    
+    <script src="usuarios.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

@@ -26,26 +26,31 @@
   <body id="cuerpo">
     <div id="loginBox">
       <h3 id="tituloBox">Bienvenido</h3>
-      <label class="userInputTitle" for="username"> Usuario </label>
-      <input
-        class="userInput"
-        id="username"
-        name="usuario"
-        placeholder="Ingrese su Usuario"
-        required
-      />
 
-      <label class="userPasswordTitle" for="password"> Contraseña </label>
-      <input
-        class="passwordInput"
-        id="password"
-        name="Contraseña"
-        type="password"
-        placeholder="Ingrese su Contraseña"
-        required
-      />
+      <form action="" class="formulario" id="formulario">
+        <label class="userInputTitle" for="username"> Usuario </label>
+        <input
+          class="input"
+          id="username"
+          name="usuario"
+          placeholder="Ingrese su Usuario"
+          required
+        />
+        <p id="inputError">Números - hasta 8 caracteres</p>
 
-      <button id="button">Iniciar Sesión</button>
+        <label class="userPasswordTitle" for="password"> Contraseña </label>
+        <input
+          class="input"
+          id="password"
+          name="contraseña"
+          type="password"
+          placeholder="Ingrese su Contraseña"
+          required
+        />
+        <p id="inputPassError">Mínimo 4 caracteres, Máximo 10.</p>
+
+        <button type="submit" class="botonFormulario" id="button">Iniciar Sesión</button>
+      </form>
     </div>
     <div>
       <img
